@@ -1,5 +1,46 @@
 body {
     color: #F15FD0;
     background-color: #000000;
-    
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 36px;
+}
+
+.sidebar {
+    width: 40%;
+    height: 100%;
+    text-align: center;
+    display: block;
+    justify-content: center;
+    padding: 10px;
+    border-right: 1px solid #F15FD0;
+    float: left;
+}
+
+.main-section {
+    width: 60%;
+    height: 100%;
+    display: block;
+    justify-content: left;
+    padding: 5px;
+    float: right;
+}
+
+.projects-container {
+    border: 1px solid #F15FD0;
+    border-radius: 2px;
+    padding: 6px;
+}
+
+.projects-container ol li {
+    list-style: none;
+    margin-left: 0%;
+    font-size: 28px;
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 36px;
 }
