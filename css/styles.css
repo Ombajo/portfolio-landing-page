@@ -1,6 +1,6 @@
 body {
-    color: #F15FD0;
-    background-color: #000000;
+    color: white;
+    background-color: Black;
     display: flex;
     justify-content: center;
     font-family: Candara;
@@ -15,9 +15,9 @@ body {
     display: block;
     justify-content: center;
     padding: 10px;
-    border-right: 1px solid #F15FD0;
     float: left;
     line-height: 18px;
+    line-color:red
 }
 
 .main-section {
@@ -45,4 +45,7 @@ ol li {
 h1 {
     font-weight: bold;
     font-size: 36px;
+}
+a {
+  color:red 
 }
