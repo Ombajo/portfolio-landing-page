@@ -3,13 +3,14 @@ body {
     background-color: #000000;
     display: flex;
     justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Candara;
     padding: 36px;
+    margin-top: -20px;
 }
 
 .sidebar {
     width: 40%;
-    height: 100vh;
+    height: 1000vh;
     text-align: center;
     display: block;
     justify-content: center;
@@ -28,17 +29,17 @@ body {
     float: right;
 }
 
-.projects-container {
+.projects-container, .about-container {
     border: 1px solid #F15FD0;
     border-radius: 2px;
     padding: 6px;
 }
 
-.projects-container ol li {
+ol li {
     list-style: none;
-    margin-left: 0%;
     font-size: 20px;
     text-decoration: none;
+    list-style-type: none;
 }
 
 h1 {
